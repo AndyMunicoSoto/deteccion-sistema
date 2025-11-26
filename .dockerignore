@@ -1,0 +1,45 @@
+# === DATASETS ENORMES (OK excluirlos) ===
+CHAD_VIDEOS/
+Dataset_Le21+GMDCSA24/
+DATASETS_COMBINADOS/
+out_npz/
+out_npz_fall/
+out_npz_video/
+pruebas_fuera/
+
+# === ENTORNO VIRTUAL ===
+venv/
+.venv/
+env/
+
+# === GIT ===
+.git/
+.gitignore
+
+# === PYTHON CACHE ===
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+
+# === EDITORES ===
+.vscode/
+.idea/
+
+# === ARCHIVOS PESADOS (OK excluirlos) ===
+*.mp4
+*.avi
+*.mov
+*.zip
+*.rar
+*.7z
+
+# 🚨 NO ignores archivos del modelo 🚨
+# Elimina cualquier línea que ignore models_mix
+# Elimina reglas globales "*.npz", "*.pkl"
+
+# Permitir modelos
+!app/models_mix/
+!app/models_mix/*.json
+!app/models_mix/*.npz
+!app/models_mix/*.pkl
